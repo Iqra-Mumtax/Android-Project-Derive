@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "877051363697",
+    "firebase_url": "https://derive-eee54.firebaseio.com",
+    "project_id": "derive-eee54",
+    "storage_bucket": "derive-eee54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877051363697:android:7ed4b4b594b19270",
+        "android_client_info": {
+          "package_name": "com.example.hamza.derive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877051363697-ou4b750fjntanifpbqepvgg0e44ejdl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hamza.derive",
+            "certificate_hash": "1122334455667788990099887766554433221122"
+          }
+        },
+        {
+          "client_id": "877051363697-94i04sgftgqqf0rs4pt93uiathb6hm1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hamza.derive",
+            "certificate_hash": "af329b27465bf3135d1382c3f003765cf94e018f"
+          }
+        },
+        {
+          "client_id": "877051363697-3al4ngvoki106nlv45halqm3122tgkga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtyhgzd4iCfu-3f6lFE0qyIXbTxcrWuAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877051363697-3al4ngvoki106nlv45halqm3122tgkga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

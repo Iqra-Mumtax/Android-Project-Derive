@@ -1,0 +1,5 @@
+reference links for Derive Android Application:
+
+FireBase:
+https://console.firebase.google.com/u/0/project/derive-eee54/overview
+https://www.androidhive.info/2016/06/android-getting-started-firebase-simple-login-registration-auth/
