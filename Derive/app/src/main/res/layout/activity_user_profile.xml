@@ -6,14 +6,158 @@
     android:layout_height="match_parent"
     tools:context=".UserProfile">
 
-    <TextView
-        android:id="@+id/textView2"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/travel" />
+
+    <TextView
+        android:id="@+id/usernameprofileID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Iqra Mumtaz"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <ImageView
+        android:id="@+id/profileimageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/usernameprofileID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/profileeditBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Edit Profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usernameprofileID">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age: "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="229dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City: "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+            tools:layout_editor_absoluteY="104dp">
+
+            <TextView
+                android:id="@+id/ageID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="229dp" />
+
+            <TextView
+                android:id="@+id/cityID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahore"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <TextView
+                android:id="@+id/countryID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pakistan"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <TextView
+                android:id="@+id/contactID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03331234567"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
