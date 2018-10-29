@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -14,14 +16,22 @@ import com.google.firebase.database.ValueEventListener;
 public class UserProfile extends AppCompatActivity {
 
     private DatabaseReference mDatabase;
+    Button editBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
+        editBtn = (Button) findViewById(R.id.profileeditBtnID);
+
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
+    }
+
+    public void onEditClick(View v){
+        Intent intent = new Intent(UserProfile.this, EditProfile.class );
+        startActivityForResult(intent,1);
     }
 
     //add new user
@@ -30,6 +40,4 @@ public class UserProfile extends AppCompatActivity {
 
         mDatabase.child("users").child(username).setValue(user);
     }
-
-
 }
