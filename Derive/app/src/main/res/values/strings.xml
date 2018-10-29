@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name"> Derive </string>
+
+    <string name="noResultsFound">No Results Found</string>
 </resources>

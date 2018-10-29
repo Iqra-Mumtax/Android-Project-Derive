@@ -101,7 +101,6 @@
                 android:id="@+id/ageID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="23"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="96dp"
                 tools:layout_editor_absoluteY="229dp" />
@@ -110,7 +109,6 @@
                 android:id="@+id/cityID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lahore"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="96dp"
                 tools:layout_editor_absoluteY="254dp" />
@@ -119,7 +117,6 @@
                 android:id="@+id/countryID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pakistan"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="130dp"
                 tools:layout_editor_absoluteY="173dp" />
@@ -128,7 +125,6 @@
                 android:id="@+id/contactID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="03331234567"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -149,7 +145,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Iqra Mumtaz"
             android:textSize="30sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="16dp"
